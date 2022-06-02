@@ -1,0 +1,106 @@
+.btn{
+    visibility: hidden;
+}
+.first_row{
+    flex-direction: column;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.title_margin{
+    margin-bottom: 0%;
+}
+.text{
+    display: none;
+}
+.image img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: 25vh;
+    border-radius: 8%;
+}
+.navbar{
+    display: flex;
+    position: static;
+    top: 0%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.signinphone{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.signinphone div{
+    margin-right: 0.5%;
+    margin-top: 1.5%;
+    padding: 0px 22px;
+    padding-bottom: 2px;
+    border-radius: 20px;
+}
+.signinphone div:hover{
+    background-color: rgb(255, 251, 251);
+    color: rgb(83, 45, 45);
+    box-shadow: 0px 0px 12px #ececec;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.styling{
+    position:absolute;
+    float: left;
+    left: 4%;
+    top: 1%;
+}
+.styling:hover{
+    background-color: rgb(255, 251, 251);
+    color: rgb(83, 45, 45);
+    box-shadow: 0px 0px 12px #ececec;
+}
+.modal-content {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 1.5rem;
+    width: 70%;
+    border-radius: 0.5rem;
+}
+.clearfix .cancelbtn {
+    background-color: green;
+    color: white;
+}
+
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.show-login {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.login-content {
+    position: absolute;
+    color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    padding: 1rem 1.5rem;
+    width: 70%;
+    border-radius: 0.5rem;
+}
