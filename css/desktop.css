@@ -3,7 +3,7 @@ body {
     padding: 0px;
     margin: 0px;
     background-color: black;
-    background: url(../img/stary\ background.jpg);
+    background: url(../img/136632.jpg);
     background-color: white;
     background-position: center;
     background-repeat: no-repeat;
@@ -380,6 +380,12 @@ input[type=password] {
 }
 
 /* Utility classes */
+.text_glow{
+    text-shadow: 4px 4px 10px aquamarine;
+}
+.home_heading{
+    font-size: xx-large;
+}
 .dash:hover {
     opacity: 0.65;
     font-weight: bolder;
@@ -440,11 +446,4 @@ input[type=password] {
 .footer {
     margin-top: 10%;
     padding-bottom: 4%;
-}
-
-@media screen and (max-width:800px) {
-    .font_size {
-        font-size: 1em;
-    }
-
 }
