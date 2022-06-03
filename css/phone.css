@@ -1,6 +1,12 @@
 .btn{
     visibility: hidden;
 }
+#logo img {
+    height: 40%;
+    width: 40%;
+}
+
+
 .first_row{
     flex-direction: column;
     width:fit-content;
